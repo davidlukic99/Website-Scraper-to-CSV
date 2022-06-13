@@ -1,0 +1,1526 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>CG-1109H - BEAKERS, PTFE, HEATABLE- Chemglass Life Sciences</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8" /><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info = {"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"1d888cb5cd","applicationID":"87835596","transactionName":"YVdUMUJZXUtUAkNfCVgdezNzF2NKWgVCVRJ1XVgRQldfVFATGGYUWVZDBkR8VkxUCFtF","queueTime":0,"applicationTime":1797,"agent":"","atts":""}</script><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+<meta name="description" content="" />
+<meta name="keywords" content="Chemglass, chemistry, glass, products, Cell culture, Biology" />
+<meta name="generator" content="nopCommerce" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta property="og:type" content="product" />
+<meta property="og:title" content="BEAKERS, PTFE, HEATABLE" />
+<meta property="og:description" content="" />
+<meta property="og:image" content="https://chemglass.com/content/images/thumbs/0011823_beakers-ptfe-heatable_550.jpeg" />
+<meta property="og:url" content="https://chemglass.com/beakers-ptfe-heatable?sku=CG-1109H" />
+<meta property="og:site_name" content="Chemglass" />
+<meta property="twitter:card" content="summary" />
+<meta property="twitter:site" content="Chemglass" />
+<meta property="twitter:title" content="BEAKERS, PTFE, HEATABLE" />
+<meta property="twitter:description" content="" />
+<meta property="twitter:image" content="https://chemglass.com/content/images/thumbs/0011823_beakers-ptfe-heatable_550.jpeg" />
+<meta property="twitter:url" content="https://chemglass.com/beakers-ptfe-heatable?sku=CG-1109H" />
+<script src='https://www.google.com/recaptcha/api.js'></script>
+<link href="/Themes/chemglass/Content/dresscode.css" rel="stylesheet" type="text/css" />
+<link href="/Themes/chemglass/Content/base.css" rel="stylesheet" type="text/css" />
+<link href="/Themes/chemglass/Content/styles.css" rel="stylesheet" type="text/css" />
+<link href="/Themes/chemglass/Content/slimbox2.css" rel="stylesheet" type="text/css" />
+<link href="/Themes/chemglass/Content/chemglass.css" rel="stylesheet" type="text/css" />
+<link href="/Content/jquery-ui-themes/smoothness/jquery-ui-1.10.3.custom.min.css" rel="stylesheet" type="text/css" />
+<link href="/Content/fancybox/jquery.fancybox-1.3.4.css" rel="stylesheet" type="text/css" />
+<script src="/Scripts/jquery-1.10.2.min.js" type="text/javascript"></script>
+<script src="/Scripts/jquery.validate.min.js" type="text/javascript"></script>
+<script src="/Scripts/jquery.validate.unobtrusive.min.js" type="text/javascript"></script>
+<script src="/Scripts/jquery-ui-1.10.3.custom.min.js" type="text/javascript"></script>
+<script src="/Scripts/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
+<script src="/Scripts/public.common.js" type="text/javascript"></script>
+<script src="/Scripts/public.ajaxcart.js" type="text/javascript"></script>
+<script src="/Themes/ChemGlass/Content/script/jquery.jcarousel.min.js" type="text/javascript"></script>
+<script src="/Themes/ChemGlass/Content/script/jquery.fancybox-1.3.4.pack.js" type="text/javascript"></script>
+<script src="/Themes/ChemGlass/Content/script/jquery.mousewheel-3.0.4.pack.js" type="text/javascript"></script>
+<script src="/Themes/ChemGlass/Content/script/jquery.easing.1.3.js" type="text/javascript"></script>
+<script src="/Themes/ChemGlass/Content/script/jquery.megamenu.js" type="text/javascript"></script>
+<script src="/Themes/ChemGlass/Content/script/jquery.selectbox-0.2.js" type="text/javascript"></script>
+<script src="/Themes/ChemGlass/Content/script/responsiveslides.js" type="text/javascript"></script>
+<script src="/Themes/ChemGlass/Content/script/jquery.elastislide.js" type="text/javascript"></script>
+<script src="/Scripts/jquery.fancybox-1.3.4.pack.js" type="text/javascript"></script>
+<link rel="shortcut icon" href="https://chemglass.com/favicon.ico" />
+
+
+</head>
+<body class="spacer  cms-index-index cms-dresscode-home">
+<div class="ajax-loading-block-window" style="display: none">
+</div>
+<div id="dialog-notifications-success" title="Notification" style="display:none;">
+</div>
+<div id="dialog-notifications-error" title="Error" style="display:none;">
+</div>
+<div id="bar-notification" class="bar-notification">
+<span class="close" title="Close">&nbsp;</span>
+</div>
+<div class="master-wrapper-page">
+<div class="master-wrapper-content">
+<script type="text/javascript">
+            AjaxCart.init(false, '.header-links .cart-qty', '.header-links .wishlist-qty', '#flyout-cart');
+        </script>
+<div class="header">
+<div class="container padding-1">
+<div class="header-logo five columns">
+<a href="/" class="logo">&nbsp; </a>
+</div>
+<div class="eleven columns">
+<div class="row">
+<div id="flyout-cart" class="flyout-cart">
+<div class="mini-shopping-cart">
+<form action="/flyoutcart" enctype="multipart/form-data" method="post"> <div class="count">
+You have no items in your shopping cart. </div>
+</form> </div>
+</div>
+</div>
+<div class="row">
+<div class="header-links-wrapper">
+<div id="nav_block_head">
+<div class="nav_block_head_field"> Service Tools </div>
+<span class="nav_block_head_button"> </span>
+<div class="clear"></div>
+</div>
+<div class="header-shopping-cart">
+<div class="header-links">
+<ul>
+<li class="header-account"><a href="/customer/info" class="account">My account</a></li>
+<li class="header-wishlist"><a href="/wishlist" class="ico-wishlist">My Favorites</a></li>
+<li class="header-shopping-cart"><a href="/cart" class="ico-cart">
+<span class="cart-label">My Cart</span>
+<span class="cart-qty">0 ITEM(S)</span></a></li>
+<li class="header-checkout"><a href="/cart" class="ico-cart">Checkout</a></li>
+<li class="header-logout"><a href="/logout" class="ico-logout">Log out</a></li>
+<li class="topcartlink">
+<a href="/cart" class="ico-cart">
+<span class="cart-label">Shopping cart</span>
+0 ITEM(S)
+</a>
+<button id="topcartlink"> > </button>
+</li>
+</ul>
+<script type="text/javascript">
+            $(document).ready(function () {                
+                    $("#topcartlink").toggle(
+                      function () {
+                          $("#flyout-cart").addClass('active');
+                      }, function () {
+                          $("#flyout-cart").removeClass('active');
+                      }
+                    );                    
+
+                //$('.header').on('click', '#topcartlink', function () {
+                //    $('#flyout-cart').addClass('active');
+                //});
+                //$('.header').on('mouseleave', '#flyout-cart', function () {
+                //    $('#flyout-cart').removeClass('active');
+                //});
+                //$('.header').on('mouseenter', '#flyout-cart', function () {
+                //    $('#flyout-cart').addClass('active');
+                //});
+                //$('.header').on('mouseleave', '#flyout-cart', function () {
+                //    $('#flyout-cart').removeClass('active');
+                //});
+
+                    jQuery('#nav_block_head').click(function () {
+                        jQuery('.header-links').toggleClass('visible_on');
+                       
+                    });
+            });
+        </script>
+</div>
+</div>
+</div>
+<div class="header-selectors-wrapper">
+<div class="phone">1-800-843-1794 </div>
+<div class="search-box"><form action="/sku_search" method="get" novalidate="novalidate">
+<div class="inputs">
+<input class="search-box-text ui-autocomplete-input" id="s" name="s" type="text" value="Search By Chemglass Product #">
+<input type="submit" class="button-1 search-box-button" value="Search">
+</div>
+</form></div>
+<div class="clear"></div>
+</div>
+<div class="search-box">
+<form action="/search" method="get" onsubmit="return check_small_search_form()"> <input type="text" class="search-box-text" id="small-searchterms" autocomplete="off" value="Search by keyword(s)" name="q" />
+<input type="hidden" id="box_adv" value="true" name="adv" />
+<input type="hidden" id="box_sid" value="true" name="sid" />
+<input type="hidden" id="box_cid" value="true" name="cid" />
+<input type="hidden" id="box_isc" value="true" name="isc" />
+<input type="submit" class="button-1 search-box-button" value="Search" />
+<script type="text/javascript">
+        $(document).ready(function() {
+            $("#s").focus(function(){
+                if(this.value=='Search By Chemglass Product #'){
+                    this.value='';
+                }
+            });
+            $("#s").blur(function(){
+                if(this.value==''){
+                    this.value='Search By Chemglass Product #';
+                }
+            });
+
+            $("#small-searchterms").focus(function() {
+                if (this.value == 'Search by keyword(s)') {
+                    this.value = '';
+                }
+            });
+
+            $("#small-searchterms").blur(function() {
+                if (this.value == '') {
+                    this.value = 'Search by keyword(s)';
+                }
+            });
+        });
+
+        function check_small_search_form() {
+            var search_terms = $("#small-searchterms");
+            if (search_terms.val() == "" || search_terms.val() == "Search by keyword(s)") {
+                alert('Please enter some search keyword');
+                search_terms.focus();
+                return false;
+            }
+            return true;
+        }
+    </script>
+<a href="/search?adv=true&cid=0" class="adv-search-link">Advanced Search</a>
+<script type="text/javascript">
+                $(function() {
+                    $('#small-searchterms').autocomplete({
+                            delay: 500,
+                            minLength: 3,
+                            source: '/catalog/searchtermautocomplete',
+                            select: function(event, ui) {
+                                $("#small-searchterms").val(ui.item.label);
+                                setLocation(ui.item.producturl);
+                                return false;
+                            }
+                        })
+                        .data("ui-autocomplete")._renderItem = function(ul, item) {
+                            var t = item.label;
+                            //html encode
+                            t = htmlEncode(t);
+                            return $("<li></li>")
+                                .data("item.autocomplete", item)
+                                .append("<a>" + t + "</a>")
+                            .appendTo(ul);
+                    };
+                });
+            </script>
+</form>
+</div>
+<div class="header-links-wrapper">
+<div class="header-links">
+<ul>
+<li class="header-account"><a href="/customer/info" class="account">My account</a></li>
+<li class="header-wishlist"><a href="/wishlist" class="ico-wishlist">My Favorites</a></li>
+<li class="header-shopping-cart"><a href="/cart" class="ico-cart">
+<span class="cart-label">My Cart</span>
+<span class="cart-qty">0 ITEM(S)</span></a></li>
+<li class="header-checkout"><a href="/cart" class="ico-cart">Checkout</a></li>
+<li class="header-logout"><a href="/logout" class="ico-logout">Log out</a></li>
+<li class="topcartlink">
+<a href="/cart" class="ico-cart">
+<span class="cart-label">Shopping cart</span>
+0 ITEM(S)
+</a>
+<button id="topcartlink"> > </button>
+</li>
+</ul>
+<script type="text/javascript">
+            $(document).ready(function () {                
+                    $("#topcartlink").toggle(
+                      function () {
+                          $("#flyout-cart").addClass('active');
+                      }, function () {
+                          $("#flyout-cart").removeClass('active');
+                      }
+                    );                    
+
+                //$('.header').on('click', '#topcartlink', function () {
+                //    $('#flyout-cart').addClass('active');
+                //});
+                //$('.header').on('mouseleave', '#flyout-cart', function () {
+                //    $('#flyout-cart').removeClass('active');
+                //});
+                //$('.header').on('mouseenter', '#flyout-cart', function () {
+                //    $('#flyout-cart').addClass('active');
+                //});
+                //$('.header').on('mouseleave', '#flyout-cart', function () {
+                //    $('#flyout-cart').removeClass('active');
+                //});
+
+                    jQuery('#nav_block_head').click(function () {
+                        jQuery('.header-links').toggleClass('visible_on');
+                       
+                    });
+            });
+        </script>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+       $(document).ready(function () {
+		console.log('89.216.98.81');
+           jQuery('#nav_block_head').click(function () {
+				jQuery('.header-links').toggleClass('visible_on');
+           });
+		   
+			jQuery('.block.block-category-navigation > .title').click(function () {
+				if (jQuery(window).width() <= 768) {
+					jQuery(this).siblings('.listbox').toggle(400);
+				}
+			});
+       });
+        </script>
+<div class="header-menu">
+<div class="container">
+<div class="sixteen columns">
+<style type="text/css">
+</style>
+<div id="menu_block_head">
+<div class="nav_block_head_field"> Menu... </div>
+<span class="menu_block_head_button"> </span>
+<div class="clear"></div>
+</div>
+<div>
+<ul class="top-menu x">
+<li></li>
+<li>
+<a href="/pages/about_history">About Us</a>
+<ul class="sublist">
+
+<li>
+<div style="padding: 5px 10px; font-size:14px; color:#000;">Corporate</div>
+<ul class="subsublist">
+<li><a href="/pages/about_history">History</a></li>
+</ul>
+</li>
+
+<li>
+<div style="padding: 5px 10px; font-size:14px; color:#000;">Capabilities</div>
+<ul class="subsublist">
+<li><a href="/pages/order_custom">Custom Glass</a></li>
+<li><a href="/pages/custom_electronics">Electronics</a></li>
+<li><a href="/pages/machining">Machining</a></li>
+<li><a href="/pages/glass_manufact">glass manufacturing</a></li>
+</ul>
+</li>
+
+<li>
+<div style="padding: 5px 10px; font-size:14px; color:#000;">Media &amp; Events</div>
+ <ul class="subsublist">
+<li><a href="/news">Press</a></li>
+<li><a href="/pages/trade_shows">Trade Shows</a></li>
+<li><a href="/pages/social_media">Social Media</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<a href="#" class="application-menu">Chemistry</a>
+
+<ul class="sublist application-sublist">
+<li><a href="/adapters-3" title="Adapters">Adapters</a></li>
+
+<li><a href="/airfree-schlenk-glassware-equipment" title="Airfree Schlenk Glassware">Airfree Schlenk Glassware</a></li>
+
+<li><a href="/airfree-ampuls" title="Ampuls">Ampuls</a></li>
+
+<li><a href="/arsine-generator" title="Arsine Generator">Arsine Generator</a></li>
+
+<li><a href="/baffles" title="Baffles">Baffles</a></li>
+
+<li><a href="/balances-and-accessories" title="Balances &amp; Accessories">Balances &amp; Accessories</a></li>
+
+<li><a href="/bath-beads" title="Bath Beads">Bath Beads</a></li>
+
+<li><a href="/beakers" title="Beakers">Beakers</a></li>
+
+<li><a href="/benchtop-reactor-chemrxnhub-glass" title="Benchtop Reactor, ChemRxnHub">Benchtop Reactor, ChemRxnHub</a></li>
+
+<li><a href="/blocks" title="Blocks">Blocks</a></li>
+
+<li><a href="/bottles-carboys-and-jars" title="Bottles, Carboys &amp; Jars">Bottles, Carboys &amp; Jars</a></li>
+
+<li><a href="/brushes" title="Brushes">Brushes</a></li>
+
+<li><a href="/bubbler" title="Bubbler">Bubbler</a></li>
+
+<li><a href="/calibration-weights" title="Calibration Weights">Calibration Weights</a></li>
+
+<li><a href="/carts" title="Carts">Carts</a></li>
+
+<li><a href="/centrifuge" title="Centrifuge">Centrifuge</a></li>
+
+<li><a href="/chromatography" title="Chromatography">Chromatography</a></li>
+
+<li><a href="/circulators-accessories" title="Circulators &amp; Accessories">Circulators &amp; Accessories</a></li>
+
+<li><a href="/clamps-supports-and-stands" title="Clamps, Supports &amp; Stands">Clamps, Supports &amp; Stands</a></li>
+
+<li><a href="/compression-fittings-pfa-2" title="Compression Fittings">Compression Fittings</a></li>
+
+<li><a href="/condensers" title="Condensers">Condensers</a></li>
+
+<li><a href="/cylinders" title="Cylinders">Cylinders</a></li>
+
+<li><a href="/data-loggers" title="Data Loggers">Data Loggers</a></li>
+
+<li><a href="/desiccators" title="Desiccators">Desiccators</a></li>
+
+<li><a href="/detergent" title="Detergent">Detergent</a></li>
+
+<li><a href="/dish" title="Dish">Dish</a></li>
+
+<li><a href="/dispensers" title="Dispensers">Dispensers</a></li>
+
+<li><a href="/distillation-equipment" title="Distillation Equipment">Distillation Equipment</a></li>
+
+<li><a href="/drying-apparatus" title="Drying Apparatus">Drying Apparatus</a></li>
+
+<li><a href="/evaporation" title="Evaporation, Rotary">Evaporation, Rotary</a></li>
+
+<li><a href="/extraction-equipment" title="Extraction Equipment">Extraction Equipment</a></li>
+
+<li><a href="/filter-reactor" title="Filter Reactor System, Complete">Filter Reactor System, Complete</a></li>
+
+<li><a href="/filtration-equipment" title="Filtration Equipment">Filtration Equipment</a></li>
+
+<li><a href="/flasks" title="Flasks">Flasks</a></li>
+
+<li><a href="/flowmeters" title="Flowmeters">Flowmeters</a></li>
+
+<li><a href="/funnels" title="Funnels">Funnels</a></li>
+
+<li><a href="/gas-sampling-apparatus" title="Gas Sampling Apparatus">Gas Sampling Apparatus</a></li>
+
+<li><a href="/glassblowing-supplies" title="Glassblowing Supplies">Glassblowing Supplies</a></li>
+
+<li><a href="/gloves" title="Gloves">Gloves</a></li>
+
+<li><a href="/heat-guns" title="Heat Guns">Heat Guns</a></li>
+
+<li><a href="/heating-mantles" title="Heating Mantles">Heating Mantles</a></li>
+
+<li><a href="/hot-plates-stirrers-and-accessories" title="Hot Plates, Stirrers &amp; Accessories">Hot Plates, Stirrers &amp; Accessories</a></li>
+
+<li><a href="/huber-unistats-chillers-and-circulators" title="Huber Unistats, Chillers &amp; Circulators">Huber Unistats, Chillers &amp; Circulators</a></li>
+
+<li><a href="/jars" title="Jars">Jars</a></li>
+
+<li><a href="/joints-and-flanges" title="Joints &amp; Flanges">Joints &amp; Flanges</a></li>
+
+<li><a href="/lab-jack-support" title="Lab Jack, Support">Lab Jack, Support</a></li>
+
+<li><a href="/labels-and-tape-laboratory" title="Labels &amp; Tape, Laboratory">Labels &amp; Tape, Laboratory</a></li>
+
+<li><a href="/chemistry-laboratory-glassware-kits" title="Laboratory Glassware Kits">Laboratory Glassware Kits</a></li>
+
+<li><a href="/liquid-handling" title="Liquid Handling">Liquid Handling</a></li>
+
+<li><a href="/micro-scale-glassware-minum-ware" title="Micro-Scale Glassware, MINUM-WARE">Micro-Scale Glassware, MINUM-WARE</a></li>
+
+<li><a href="/microwave-vials" title="Microwave Vials">Microwave Vials</a></li>
+
+<li><a href="/nmr-tubes-cleaners-and-accessories" title="NMR Tubes, Cleaners and Accessories">NMR Tubes, Cleaners and Accessories</a></li>
+
+<li><a href="/oil-baths" title="Oil Baths">Oil Baths</a></li>
+
+<li><a href="/o-rings" title="O-Rings">O-Rings</a></li>
+
+<li><a href="/ovens" title="Ovens">Ovens</a></li>
+
+<li><a href="/peptide-synthesis-vessels" title="Peptide Synthesis Vessels">Peptide Synthesis Vessels</a></li>
+
+<li><a href="/ph-meters-and-probes" title="pH Meters &amp; Probes">pH Meters &amp; Probes</a></li>
+
+<li><a href="/pilot-plant-reactors" title="Pilot Plant Reactors">Pilot Plant Reactors</a></li>
+
+<li><a href="/pipets" title="Pipets">Pipets</a></li>
+
+<li><a href="/plate-glass" title="Plate Glass">Plate Glass</a></li>
+
+<li><a href="/porcelain-products" title="Porcelain Products">Porcelain Products</a></li>
+
+<li><a href="/pressure-vessels" title="Pressure Vessels">Pressure Vessels</a></li>
+
+<li><a href="/pumps" title="Pumps">Pumps</a></li>
+
+<li><a href="/quartz-products" title="Quartz Products">Quartz Products</a></li>
+
+<li><a href="/rack" title="Rack">Rack</a></li>
+
+<li><a href="/reaction-blocks" title="Reaction Blocks">Reaction Blocks</a></li>
+
+<li><a href="/reactor-systems-and-equipment" title="Reactor Systems &amp; Equipment">Reactor Systems &amp; Equipment</a></li>
+
+<li><a href="/screw-caps-pouring-rings" title="Screw Caps &amp; Pouring Rings">Screw Caps &amp; Pouring Rings</a></li>
+
+<li><a href="/solid-phase-extraction-equipment" title="Solid Phase Extraction Equipment">Solid Phase Extraction Equipment</a></li>
+
+<li><a href="/spatulas" title="Spatulas">Spatulas</a></li>
+
+<li><a href="/spill-trays" title="Spill Trays">Spill Trays</a></li>
+
+<li><a href="/stands-reactors-support" title="Stands, Reactor Support">Stands, Reactor Support</a></li>
+
+<li><a href="/stir-bars-magnetic" title="Stir Bars, Magnetic">Stir Bars, Magnetic</a></li>
+
+<li><a href="/stirring-shaking-and-mixing-equipment" title="Stirring, Shaking &amp; Mixing Equipment">Stirring, Shaking &amp; Mixing Equipment</a></li>
+
+<li><a href="/stopcocks" title="Stopcocks">Stopcocks</a></li>
+
+<li><a href="/stoppers-septum-and-closures-laboratory" title="Stoppers, Septum &amp; Closures">Stoppers, Septum &amp; Closures</a></li>
+
+<li><a href="/sublimation-apparatus" title="Sublimation Apparatus">Sublimation Apparatus</a></li>
+
+<li><a href="/syringe-pumps" title="Syringe Pumps">Syringe Pumps</a></li>
+
+<li><a href="/syringes" title="Syringes">Syringes</a></li>
+
+<li><a href="/temperature-controllers" title="Temperature Controllers">Temperature Controllers</a></li>
+
+<li><a href="/thermocouples-and-pt100-sensors" title="Thermocouples &amp; PT100 Sensors">Thermocouples &amp; PT100 Sensors</a></li>
+
+<li><a href="/thermometers-1" title="Thermometers">Thermometers</a></li>
+
+<li><a href="/tools" title="Tools">Tools</a></li>
+
+<li><a href="/tubing-fittings-and-hose" title="Tubing, Fittings and Hose">Tubing, Fittings and Hose</a></li>
+
+<li><a href="/tweezers-forceps" title="Tweezers &amp; Forceps">Tweezers &amp; Forceps</a></li>
+
+<li><a href="/uv-lamps" title="UV Lamps">UV Lamps</a></li>
+
+<li><a href="/vacuum" title="Vacuum">Vacuum</a></li>
+
+<li><a href="/valves" title="Valves">Valves</a></li>
+
+<li><a href="/watch-glass" title="Watch Glass">Watch Glass</a></li>
+
+<li><a href="/weighing-boats-dishes" title="Weighing Boats/Dishes">Weighing Boats/Dishes</a></li>
+
+</ul>
+</li>
+<li>
+<a href="#" class="application-menu">Life Sciences</a>
+
+<ul class="sublist application-sublist">
+<li><a href="/autoclave-equipment" title="Autoclave Equipment">Autoclave Equipment</a></li>
+
+<li><a href="/autoradiography-film" title="Autoradiography Film">Autoradiography Film</a></li>
+
+ <li><a href="/bags" title="Bags">Bags</a></li>
+
+<li><a href="/balances-and-accessories" title="Balances &amp; Accessories">Balances &amp; Accessories</a></li>
+
+<li><a href="/bath-beads" title="Bath Beads">Bath Beads</a></li>
+
+<li><a href="/baths" title="Baths">Baths</a></li>
+
+<li><a href="/beakers" title="Beakers">Beakers</a></li>
+
+<li><a href="/bio-reactors" title="Bioreactors">Bioreactors</a></li>
+
+<li><a href="/blocks" title="Blocks">Blocks</a></li>
+
+<li><a href="/bottles-carboys-and-jars" title="Bottles, Carboys &amp; Jars">Bottles, Carboys &amp; Jars</a></li>
+
+<li><a href="/calibration-weights" title="Calibration Weights">Calibration Weights</a></li>
+
+<li><a href="/carts" title="Carts">Carts</a></li>
+
+<li><a href="/cell-culture" title="Cell Culture">Cell Culture</a></li>
+
+<li><a href="/celltreat-plastics-cell-and-tissue-culture" title="Celltreat Plastics">Celltreat Plastics</a></li>
+
+<li><a href="/centrifuge" title="Centrifuge">Centrifuge</a></li>
+
+<li><a href="/clamps-supports-and-stands" title="Clamps, Supports &amp; Stands">Clamps, Supports &amp; Stands</a></li>
+
+<li><a href="/cover-glass" title="Cover Glass">Cover Glass</a></li>
+
+<li><a href="/hungateanaerobicculture-tubes" title="Culture Tubes">Culture Tubes</a></li>
+
+<li><a href="/cylinders" title="Cylinders">Cylinders</a></li>
+
+<li><a href="/detergent" title="Detergent">Detergent</a></li>
+
+<li><a href="/dish" title="Dish">Dish</a></li>
+
+<li><a href="/dispensers" title="Dispensers">Dispensers</a></li>
+
+<li><a href="/electrophoresis-system" title="Electrophoresis">Electrophoresis</a></li>
+
+<li><a href="/electroporation-cuvettes" title="Electroporation Cuvettes">Electroporation Cuvettes</a></li>
+
+<li><a href="/filling-bell" title="Filling Bell">Filling Bell</a></li>
+
+<li><a href="/flasks" title="Flasks">Flasks</a></li>
+
+<li><a href="/fluid-aspirator-systems" title="Fluid Aspirator Systems">Fluid Aspirator Systems</a></li>
+
+<li><a href="/freezer-boxes-and-racks-refigerator" title="Freezer Boxes &amp; Racks">Freezer Boxes &amp; Racks</a></li>
+
+<li><a href="/funnels" title="Funnels">Funnels</a></li>
+
+<li><a href="/gel-boxes" title="Gel Boxes">Gel Boxes</a></li>
+
+<li><a href="/gloves" title="Gloves">Gloves</a></li>
+
+<li><a href="/hemocytometer" title="Hemocytometer">Hemocytometer</a></li>
+
+<li><a href="/homogenizer" title="Homogenizer">Homogenizer</a></li>
+
+<li><a href="/hot-plates-stirrers-and-accessories" title="Hot Plates, Stirrers &amp; Accessories">Hot Plates, Stirrers &amp; Accessories</a></li>
+
+<li><a href="/incubators" title="Incubators">Incubators</a></li>
+
+<li><a href="/inoculating-loops-needles" title="Inoculating Loops - Needles">Inoculating Loops - Needles</a></li>
+
+<li><a href="/lab-jack-support" title="Lab Jack, Support">Lab Jack, Support</a></li>
+
+<li><a href="/labels-and-tape-laboratory" title="Labels &amp; Tape, Laboratory">Labels &amp; Tape, Laboratory</a></li>
+
+<li><a href="/liquid-handling" title="Liquid Handling">Liquid Handling</a></li>
+
+<li><a href="/melting-point-apparatus" title="Melting Point Apparatus">Melting Point Apparatus</a></li>
+
+<li><a href="/microbiology" title="Microbiology">Microbiology</a></li>
+
+<li><a href="/microplates" title="Microplates">Microplates</a></li>
+
+<li><a href="/microscope-slides" title="Microscope Slides">Microscope Slides</a></li>
+
+<li><a href="/microscopy-glass-bottom-dishes" title="Microscopy">Microscopy</a></li>
+
+<li><a href="/microtubes" title="Microtubes">Microtubes</a></li>
+
+<li><a href="/mosquito-feeder-glass" title="Mosquito Feeder">Mosquito Feeder</a></li>
+
+<li><a href="/o-rings" title="O-Rings">O-Rings</a></li>
+
+<li><a href="/ovens" title="Ovens">Ovens</a></li>
+
+<li><a href="/pcr" title="PCR">PCR</a></li>
+
+<li><a href="/ph-meters-and-probes" title="pH Meters &amp; Probes">pH Meters &amp; Probes</a></li>
+
+<li><a href="/pipets" title="Pipets">Pipets</a></li>
+
+<li><a href="/plastics" title="Plastics">Plastics</a></li>
+
+<li><a href="/probes" title="Probes">Probes</a></li>
+
+<li><a href="/pumps" title="Pumps">Pumps</a></li>
+
+<li><a href="/race-tubes" title="Race Tubes">Race Tubes</a></li>
+
+<li><a href="/rack" title="Rack">Rack</a></li>
+
+<li><a href="/refrigerators-freezers" title="Refrigerators - Freezers">Refrigerators - Freezers</a></li>
+
+<li><a href="/reservoirs" title="Reservoirs">Reservoirs</a></li>
+
+<li><a href="/rockers-cell-culture" title="Rockers">Rockers</a></li>
+
+<li><a href="/rollers" title="Rollers">Rollers</a></li>
+
+<li><a href="/rotators" title="Rotators">Rotators</a></li>
+
+<li><a href="/screw-caps-pouring-rings" title="Screw Caps &amp; Pouring Rings">Screw Caps &amp; Pouring Rings</a></li>
+
+<li><a href="/sealing-film" title="Sealing Film">Sealing Film</a></li>
+
+<li><a href="/shakers-cell-culture" title="Shakers">Shakers</a></li>
+
+<li><a href="/spatulas" title="Spatulas">Spatulas</a></li>
+
+<li><a href="/spectrophotometers" title="Spectrophotometers">Spectrophotometers</a></li>
+
+<li><a href="/spill-trays" title="Spill Trays">Spill Trays</a></li>
+
+<li><a href="/spinner-flasks" title="Spinner Flasks">Spinner Flasks</a></li>
+
+<li><a href="/spot-plates" title="Spot Plates">Spot Plates</a></li>
+
+<li><a href="/staining-solution" title="Staining Solution">Staining Solution</a></li>
+
+<li><a href="/stir-bars-magnetic" title="Stir Bars, Magnetic">Stir Bars, Magnetic</a></li>
+
+<li><a href="/stirring-shaking-and-mixing-equipment" title="Stirring, Shaking &amp; Mixing Equipment">Stirring, Shaking &amp; Mixing Equipment</a></li>
+
+<li><a href="/stoppers-septum-and-closures-laboratory" title="Stoppers, Septum &amp; Closures">Stoppers, Septum &amp; Closures</a></li>
+
+<li><a href="/syringes" title="Syringes">Syringes</a></li>
+
+<li><a href="/thermal-cycler" title="Thermal Cycler">Thermal Cycler</a></li>
+
+<li><a href="/tissue-grinder" title="Tissue Grinder">Tissue Grinder</a></li>
+
+<li><a href="/tubing-fittings-and-hose" title="Tubing, Fittings and Hose">Tubing, Fittings and Hose</a></li>
+
+<li><a href="/tweezers-forceps" title="Tweezers &amp; Forceps">Tweezers &amp; Forceps</a></li>
+
+<li><a href="/uv-lamps" title="UV Lamps">UV Lamps</a></li>
+
+<li><a href="/vortex-mixers-cell-culture" title="Vortex Mixers">Vortex Mixers</a></li>
+
+<li><a href="/waste-disposal" title="Waste Disposal">Waste Disposal</a></li>
+
+<li><a href="/weighing-boats-dishes" title="Weighing Boats/Dishes">Weighing Boats/Dishes</a></li>
+
+</ul>
+</li>
+<li>
+<a href="#" class="application-menu">Reactors</a>
+
+<ul class="sublist application-sublist">
+<li><a href="/10-20l-reactor-systems-glass" title="10-20L Reactor Systems">10-20L Reactor Systems</a></li>
+
+<li><a href="/30-50l-reactor-systems-glass" title="30-50L Reactor Systems">30-50L Reactor Systems</a></li>
+
+<li><a href="/75-100l-reactor-systems-glass" title="75-100L Reactor Systems">75-100L Reactor Systems</a></li>
+
+<li><a href="/adapters-3" title="Adapters">Adapters</a></li>
+
+<li><a href="/baffles" title="Baffles">Baffles</a></li>
+
+<li><a href="/benchtop-reactor-chemrxnhub-glass" title="Benchtop Reactor, ChemRxnHub">Benchtop Reactor, ChemRxnHub</a></li>
+
+<li><a href="/bottles-carboys-and-jars" title="Bottles, Carboys &amp; Jars">Bottles, Carboys &amp; Jars</a></li>
+
+<li><a href="/brushes" title="Brushes">Brushes</a></li>
+
+<li><a href="/bubbler" title="Bubbler">Bubbler</a></li>
+
+<li><a href="/carts" title="Carts">Carts</a></li>
+
+<li><a href="/circulators-accessories" title="Circulators &amp; Accessories">Circulators &amp; Accessories</a></li>
+
+<li><a href="/clamps-supports-and-stands" title="Clamps, Supports &amp; Stands">Clamps, Supports &amp; Stands</a></li>
+
+<li><a href="/compression-fittings-pfa-2" title="Compression Fittings">Compression Fittings</a></li>
+
+<li><a href="/condensers" title="Condensers">Condensers</a></li>
+
+<li><a href="/data-loggers" title="Data Loggers">Data Loggers</a></li>
+
+<li><a href="/distillation-equipment" title="Distillation Equipment">Distillation Equipment</a></li>
+
+<li><a href="/evaporation" title="Evaporation, Rotary">Evaporation, Rotary</a></li>
+
+<li><a href="/filter-reactor" title="Filter Reactor System, Complete">Filter Reactor System, Complete</a></li>
+
+<li><a href="/flowmeters" title="Flowmeters">Flowmeters</a></li>
+
+<li><a href="/gloves" title="Gloves">Gloves</a></li>
+
+<li><a href="/heating-mantles" title="Heating Mantles">Heating Mantles</a></li>
+
+<li><a href="/huber-unistats-chillers-and-circulators" title="Huber Unistats, Chillers &amp; Circulators">Huber Unistats, Chillers &amp; Circulators</a></li>
+
+<li><a href="/lab-jack-support" title="Lab Jack, Support">Lab Jack, Support</a></li>
+
+<li><a href="/labels-and-tape-laboratory" title="Labels &amp; Tape, Laboratory">Labels &amp; Tape, Laboratory</a></li>
+
+<li><a href="/o-rings" title="O-Rings">O-Rings</a></li>
+
+<li><a href="/ph-meters-and-probes" title="pH Meters &amp; Probes">pH Meters &amp; Probes</a></li>
+
+<li><a href="/pilot-plant-reactors" title="Pilot Plant Reactors">Pilot Plant Reactors</a></li>
+
+<li><a href="/pumps" title="Pumps">Pumps</a></li>
+
+<li><a href="/rack" title="Rack">Rack</a></li>
+
+<li><a href="/reactor-systems-and-equipment" title="Reactor Systems &amp; Equipment">Reactor Systems &amp; Equipment</a></li>
+
+<li><a href="/spill-trays" title="Spill Trays">Spill Trays</a></li>
+
+<li><a href="/stands-reactors-support" title="Stands, Reactor Support">Stands, Reactor Support</a></li>
+
+<li><a href="/stirring-shaking-and-mixing-equipment" title="Stirring, Shaking &amp; Mixing Equipment">Stirring, Shaking &amp; Mixing Equipment</a></li>
+
+<li><a href="/stoppers-septum-and-closures-laboratory" title="Stoppers, Septum &amp; Closures">Stoppers, Septum &amp; Closures</a></li>
+
+<li><a href="/syringe-pumps" title="Syringe Pumps">Syringe Pumps</a></li>
+
+<li><a href="/syringes" title="Syringes">Syringes</a></li>
+
+<li><a href="/temperature-controllers" title="Temperature Controllers">Temperature Controllers</a></li>
+
+<li><a href="/thermocouples-and-pt100-sensors" title="Thermocouples &amp; PT100 Sensors">Thermocouples &amp; PT100 Sensors</a></li>
+
+<li><a href="/thermometers-1" title="Thermometers">Thermometers</a></li>
+
+<li><a href="/tools" title="Tools">Tools</a></li>
+
+<li><a href="/tubing-fittings-and-hose" title="Tubing, Fittings and Hose">Tubing, Fittings and Hose</a></li>
+
+<li><a href="/uv-lamps" title="UV Lamps">UV Lamps</a></li>
+
+</ul>
+</li>
+<li>
+<a href="#" class="application-menu">Vials</a>
+
+<ul class="sublist application-sublist">
+<li><a href="/autosampler-vials-2" title="Autosampler Vials">Autosampler Vials</a></li>
+
+<li><a href="/caps-andclosures" title="Caps &amp; Closures">Caps &amp; Closures</a></li>
+
+<li><a href="/crimper-and-decappers" title="Crimper &amp; Decappers">Crimper &amp; Decappers</a></li>
+
+<li><a href="/cryogenic-vials" title="Cryogenic Vials">Cryogenic Vials</a></li>
+
+<li><a href="/headspace-vials" title="Headspace Vials">Headspace Vials</a></li>
+
+<li><a href="/high-recovery-vials" title="High Recovery Vials">High Recovery Vials</a></li>
+
+<li><a href="/kits-preassembled" title="Kits, Vials &amp; Caps">Kits, Vials &amp; Caps</a></li>
+
+<li><a href="/microwave-vials-2" title="Microwave Vials">Microwave Vials</a></li>
+
+<li><a href="/racks-and-cabinets" title="Racks &amp; Cabinets ">Racks &amp; Cabinets </a></li>
+
+<li><a href="/reactions-vials" title="Reaction Vials">Reaction Vials</a></li>
+
+<li><a href="/sample-vials" title="Sample Vials">Sample Vials</a></li>
+
+<li><a href="/valves-for-vials" title="Valves for Vials">Valves for Vials</a></li>
+
+<li><a href="/vial-trays" title="Vial Trays">Vial Trays</a></li>
+
+<li><a href="/wisp-vials" title="Wisp Vials">Wisp Vials</a></li>
+
+</ul>
+</li>
+<li><a href="/contactus">Contact</a>
+<ul class="sublist">
+<li><a href="/contactus">Contact Us</a></li>
+<li><a href="/pages/sales_reps">North America Sales Team</a></li>
+<li><a href="/pages/supp_interns">International Sales Team</a></li>
+
+<li><a href="/requestcatalog">Request Catalog</a></li>
+<li><a href="/pages/directions">Directions</a></li>
+</ul>
+</li>
+<li><a href="/pages/tech_pdfs">Technical Resources</a>
+<ul class="sublist">
+<li><a href="/pages/tech_pdfs">Technical Data Sheets</a></li>
+<li><a href="/pages/tech_notes">Tech Notes</a></li>
+<li><a href="/pages/tech_manuals">product manuals</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<script type="text/javascript">
+    $('li', '.top-menu').on('mouseenter', function () {
+        $('a', $(this)).first().addClass('hover');
+        if (!$(this).parent().hasClass('top-menu')) {
+            var width = $(this).innerWidth();
+            $('.sublist', $(this)).first().css('left', width + 15);
+        }
+        //$('.sublist', $(this)).first().addClass('active');
+		$(this).children("*").addClass('active');
+		
+		//$('.sublist',$(this)).first().addClass('active');
+		
+		
+        $('.top-menu-triangle', $(this)).addClass('active');
+    });
+    $('li', '.top-menu').on('mouseleave', function () {
+        $('a', $(this)).first().removeClass('hover');
+        $('.sublist', $(this)).first().removeClass('active');
+        $('.top-menu-triangle', $(this)).removeClass('active');
+			//$(this).children("*").removeClass('active');
+    });
+
+
+    $(document).ready(function () {
+        jQuery('#menu_block_head').click(function () {
+            jQuery('.top-menu').toggleClass('visible_on');
+        });
+		
+		jQuery('.top-menu > li > a.application-menu').click(function () {
+			if (jQuery(window).width() <= 940) {
+				jQuery('.top-menu > li > .sublist.application-sublist').not(jQuery(this).siblings('.sublist.application-sublist')).hide(200);
+				jQuery(this).siblings('.sublist.application-sublist').toggle(200);
+				return false;
+			}
+		});
+
+    });
+</script>
+</div>
+</div>
+</div>
+<div class="ajax-loading-block-window" style="display: none">
+<div class="loading-image">
+</div>
+</div>
+<div class="master-wrapper-main">
+<div class="center-1">
+<div class="container">
+<div class="main">
+
+<div class="sixteen columns breadcrumb">
+<ul>
+<li>
+<span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+<a href="/" itemprop="url">
+<span itemprop="title">Home</span>
+</a>
+</span>
+<span class="delimiter">/</span>
+</li>
+<li>
+<span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+<a href="/beakers" itemprop="url">
+<span itemprop="title">Beakers</span>
+</a>
+</span>
+<span class="delimiter">/</span>
+</li>
+<li>
+<strong class="current-item">BEAKERS, PTFE, HEATABLE</strong>
+</li>
+</ul>
+</div>
+<div class="page product-details-page">
+<div class="page-body">
+<form action="/beakers-ptfe-heatable" id="product-details-form" method="post"> <div itemscope itemtype="http://schema.org/Product" data-productid="113944">
+<div class="product-essential">
+
+<div class="gallery five columns" style="overflow: visible;">
+<div class="product-img-box" style="overflow: visible;">
+<div class="product-image" style="overflow: visible;">
+<div id="wrap" style="overflow: visible;">
+<a rel="fancy-box" id="zoom1" class="cloud-zoom" title="BEAKERS, PTFE, HEATABLE" href="https://chemglass.com/content/images/thumbs/0011823_beakers-ptfe-heatable.jpeg" style="position: relative; display: block;">
+<img alt="BEAKERS, PTFE, HEATABLE" width="275" src="https://chemglass.com/content/images/thumbs/0011823_beakers-ptfe-heatable_550.jpeg" title="BEAKERS, PTFE, HEATABLE" itemprop="image" id="main-product-img-113944" />
+</a>
+<div class="mousetrap">
+</div>
+<div class="mousetrap">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="overview nine columns">
+<div class="product-name">
+
+<div class="sku">
+<span class="label"></span><span class="value" itemprop="sku" id="sku-113944">CG-1109H</span>
+</div>
+<h1 itemprop="name">
+BEAKERS, PTFE, HEATABLE
+</h1>
+</div>
+
+
+<div class="product-share-button">
+<div class="addthis_toolbox addthis_default_style "><a class="addthis_button_preferred_1"></a><a class="addthis_button_preferred_2"></a><a class="addthis_button_preferred_3"></a><a class="addthis_button_preferred_4"></a><a class="addthis_button_compact"></a><a class="addthis_counter addthis_bubble_style"></a></div><script type="text/javascript" src="https://s7.addthis.com/js/250/addthis_widget.js#pubid=nopsolutions"></script>
+</div>
+<div class="full-description" itemprop="description">
+<p><span style="font-size: 9pt;">PTFE Beakers feature the unique combination of a pure PTFE body with a specially formulated stabilized PTFE Carbon base as a single molding to give:</span> <br /><span style="font-size: 9pt;">&bull; Totally inert, pure PTFE inner surface</span> <br /><span style="font-size: 9pt;">&bull; Heatable to 270&deg;C without distortion</span> <br /><span style="font-size: 9pt;">&bull; Improved heat transfer</span></p>
+</div>
+</div>
+</div>
+<div class="product-collateral">
+
+<div class="product-variant-list">
+<table class="product-variant-table">
+<thead class="product-variant-header">
+<tr class="product-variant-header-row">
+<th class="item-number-header">Item Number</th>
+<th class="item-description-header">Item Description</th>
+<th class="item-pq-header">PQ</th>
+<th class="item-price-header">Price</th>
+<th class="item-quantity-available-header">Qty Avail</th>
+<th class="item-quantity-header">Quantity</th>
+</tr>
+</thead>
+<tbody>
+<tr class="product-variant-line product-variant-normal" data-productid="113941" id="product-CG-1109H-01">
+<td class="variant-sku">
+
+<div class="sku">
+<span class="label"></span><span class="value" itemprop="sku" id="sku-113941">CG-1109H-01</span>
+</div>
+</td>
+<td class="variant-description">
+<div class="variant-description">
+Beaker, Heatable, 100mL, PTFE
+</div>
+</td>
+<td class="variant-pq">
+<div class="variant-pq">
+EACH
+</div>
+</td>
+<td class="variant-price">
+<span class="price-icon"></span>
+<sup>✱ </sup>
+<div class="prices price-normal" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+<div class="product-price">
+<span itemprop="price" class="price-value-113941 
+                  regular-price ">
+$75.60 </span>
+</div>
+<meta itemprop="priceCurrency" content="USD" />
+</div>
+</td>
+<td class="variant-availablequantity">
+<div class="variant-availablequantity">
+Call for<br />Availability
+</div>
+</td>
+<td class="variant-quantity">
+<div class="add-to-cart">
+<div class="add-to-cart-panel">
+<label class="qty-label" for="addtocart_113941_EnteredQuantity">Qty:</label>
+<input type="button" value="-" id="qty-decrement" />
+<input class="qty-input" data-val="true" data-val-number="The field Qty must be a number." id="qty-input" name="addtocart_113941.EnteredQuantity" type="text" value="1" /> <input type="button" value="+" id="qty-increment" />
+<script type="text/javascript">
+                    $(document).ready(function() {
+                        $("#addtocart_113941_EnteredQuantity").keydown(function(event) {
+                                 if (event.keyCode == 13) {
+                                     $("#add-to-cart-button-113941").click();
+                                     return false;
+                                 }
+                             });
+                         });
+                </script>
+<input type="button" id="add-to-cart-button-113941" class="button-1 add-to-cart-button" value="Add to cart" data-productid="113941" onclick="AjaxCart.addproducttocart_details('/addproducttocart/details/113941/1', '#product-details-form');return false;" />
+<a href="javascript:" class="add-to-wishlist-link" data-ng-show="#add-to-wishlist-113941">Add to Favorites</a>
+<div class="add-to-wishlist" id="add-to-wishlist-113941">
+<input type="button" id="add-to-wishlist-button-113941" class="button-2 add-to-wishlist-button" value="Add to favorites" data-productid="113941" onclick="AjaxCart.addproducttocart_details('/addproducttocart/details/113941/2', '#product-details-form');return false;" />
+<select data-val="true" data-val-number="The field favoriteListId must be a number." id="addtocart_113941_favoriteListId" name="addtocart_113941.favoriteListId"></select>
+<span class="field-validation-valid" data-valmsg-for="addtocart_113941.favoriteListId" data-valmsg-replace="true"></span>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+    $("#qty-increment").on("click", function() {
+        var qty = $("#qty-input").val();
+        var newVal = parseFloat(qty) + 1;
+        $("#qty-input").val(newVal);        
+    });  
+
+    $("#qty-decrement").on("click", function() {
+        var qty = $("#qty-input").val();
+        if(qty > 0)
+        {
+            var newVal = parseFloat(qty) - 1;
+            $("#qty-input").val(newVal);     
+        }
+    });
+</script>
+</td>
+</tr>
+<tr class="product-variant-line product-variant-normal" data-productid="113942" id="product-CG-1109H-02">
+<td class="variant-sku">
+
+<div class="sku">
+<span class="label"></span><span class="value" itemprop="sku" id="sku-113942">CG-1109H-02</span>
+</div>
+</td>
+<td class="variant-description">
+<div class="variant-description">
+Beaker, Heatable, 250mL, PTFE
+</div>
+</td>
+<td class="variant-pq">
+<div class="variant-pq">
+EACH
+</div>
+</td>
+<td class="variant-price">
+<span class="price-icon"></span>
+<sup>✱ </sup>
+<div class="prices price-normal" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+<div class="product-price">
+<span itemprop="price" class="price-value-113942 
+                  regular-price ">
+$93.80 </span>
+</div>
+<meta itemprop="priceCurrency" content="USD" />
+</div>
+</td>
+<td class="variant-availablequantity">
+<div class="variant-availablequantity">
+Call for<br />Availability
+</div>
+</td>
+<td class="variant-quantity">
+<div class="add-to-cart">
+<div class="add-to-cart-panel">
+<label class="qty-label" for="addtocart_113942_EnteredQuantity">Qty:</label>
+<input type="button" value="-" id="qty-decrement" />
+<input class="qty-input" data-val="true" data-val-number="The field Qty must be a number." id="qty-input" name="addtocart_113942.EnteredQuantity" type="text" value="1" /> <input type="button" value="+" id="qty-increment" />
+<script type="text/javascript">
+                    $(document).ready(function() {
+                        $("#addtocart_113942_EnteredQuantity").keydown(function(event) {
+                                 if (event.keyCode == 13) {
+                                     $("#add-to-cart-button-113942").click();
+                                     return false;
+                                 }
+                             });
+                         });
+                </script>
+<input type="button" id="add-to-cart-button-113942" class="button-1 add-to-cart-button" value="Add to cart" data-productid="113942" onclick="AjaxCart.addproducttocart_details('/addproducttocart/details/113942/1', '#product-details-form');return false;" />
+<a href="javascript:" class="add-to-wishlist-link" data-ng-show="#add-to-wishlist-113942">Add to Favorites</a>
+<div class="add-to-wishlist" id="add-to-wishlist-113942">
+<input type="button" id="add-to-wishlist-button-113942" class="button-2 add-to-wishlist-button" value="Add to favorites" data-productid="113942" onclick="AjaxCart.addproducttocart_details('/addproducttocart/details/113942/2', '#product-details-form');return false;" />
+<select data-val="true" data-val-number="The field favoriteListId must be a number." id="addtocart_113942_favoriteListId" name="addtocart_113942.favoriteListId"></select>
+<span class="field-validation-valid" data-valmsg-for="addtocart_113942.favoriteListId" data-valmsg-replace="true"></span>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+    $("#qty-increment").on("click", function() {
+        var qty = $("#qty-input").val();
+        var newVal = parseFloat(qty) + 1;
+        $("#qty-input").val(newVal);        
+    });  
+
+    $("#qty-decrement").on("click", function() {
+        var qty = $("#qty-input").val();
+        if(qty > 0)
+        {
+            var newVal = parseFloat(qty) - 1;
+            $("#qty-input").val(newVal);     
+        }
+    });
+</script>
+</td>
+</tr>
+<tr class="product-variant-line product-variant-normal" data-productid="113943" id="product-CG-1109H-03">
+<td class="variant-sku">
+
+<div class="sku">
+<span class="label"></span><span class="value" itemprop="sku" id="sku-113943">CG-1109H-03</span>
+</div>
+</td>
+<td class="variant-description">
+<div class="variant-description">
+Beaker, Heatable, 400mL, PTFE
+</div>
+</td>
+<td class="variant-pq">
+<div class="variant-pq">
+EACH
+</div>
+</td>
+<td class="variant-price">
+<span class="price-icon"></span>
+<sup>✱ </sup>
+<div class="prices price-normal" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+<div class="product-price">
+<span itemprop="price" class="price-value-113943 
+                  regular-price ">
+$113.05 </span>
+</div>
+<meta itemprop="priceCurrency" content="USD" />
+</div>
+</td>
+<td class="variant-availablequantity">
+<div class="variant-availablequantity">
+1
+</div>
+</td>
+<td class="variant-quantity">
+<div class="add-to-cart">
+<div class="add-to-cart-panel">
+<label class="qty-label" for="addtocart_113943_EnteredQuantity">Qty:</label>
+<input type="button" value="-" id="qty-decrement" />
+<input class="qty-input" data-val="true" data-val-number="The field Qty must be a number." id="qty-input" name="addtocart_113943.EnteredQuantity" type="text" value="1" /> <input type="button" value="+" id="qty-increment" />
+<script type="text/javascript">
+                    $(document).ready(function() {
+                        $("#addtocart_113943_EnteredQuantity").keydown(function(event) {
+                                 if (event.keyCode == 13) {
+                                     $("#add-to-cart-button-113943").click();
+                                     return false;
+                                 }
+                             });
+                         });
+                </script>
+<input type="button" id="add-to-cart-button-113943" class="button-1 add-to-cart-button" value="Add to cart" data-productid="113943" onclick="AjaxCart.addproducttocart_details('/addproducttocart/details/113943/1', '#product-details-form');return false;" />
+<a href="javascript:" class="add-to-wishlist-link" data-ng-show="#add-to-wishlist-113943">Add to Favorites</a>
+ <div class="add-to-wishlist" id="add-to-wishlist-113943">
+<input type="button" id="add-to-wishlist-button-113943" class="button-2 add-to-wishlist-button" value="Add to favorites" data-productid="113943" onclick="AjaxCart.addproducttocart_details('/addproducttocart/details/113943/2', '#product-details-form');return false;" />
+<select data-val="true" data-val-number="The field favoriteListId must be a number." id="addtocart_113943_favoriteListId" name="addtocart_113943.favoriteListId"></select>
+<span class="field-validation-valid" data-valmsg-for="addtocart_113943.favoriteListId" data-valmsg-replace="true"></span>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+    $("#qty-increment").on("click", function() {
+        var qty = $("#qty-input").val();
+        var newVal = parseFloat(qty) + 1;
+        $("#qty-input").val(newVal);        
+    });  
+
+    $("#qty-decrement").on("click", function() {
+        var qty = $("#qty-input").val();
+        if(qty > 0)
+        {
+            var newVal = parseFloat(qty) - 1;
+            $("#qty-input").val(newVal);     
+        }
+    });
+</script>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="productLineNotes">
+&nbsp; <sup>✱</sup> Not Subject to Discount </div>
+</div>
+<div id="tabs" class="product-collateral">
+<ul>
+<li><a href="#tabs-2">Replacement Parts</a></li>
+<li><a href="#tabs-4">Specifications/Manuals</a></li>
+
+
+<li><a href="#tabs-6">Suggested Products</a></li>
+</ul>
+<div id="tabs-2">
+<p id="no-related-products">There are no replacements for this product.</p>
+</div>
+<div id="tabs-6">
+<div class="product-variant-list suggested-table">
+<div class="title" style="display:none;">
+<strong>Suggested Products</strong>
+</div>
+<div class="product-grid related-product-grid">
+<div>
+<div class="item-box">
+<div class="product-item" data-productid="92924" id="product-CG-1109">
+<div class="picture product-image-wrapper" id="productImageWrapID_92924">
+<a href="/beakers-ptfe-low-form" title="BEAKERS, PTFE, LOW FORM ">
+<img class="scale-with-grid" alt="BEAKERS, PTFE, LOW FORM " src="https://chemglass.com/content/images/thumbs/0002958_beakers-ptfe-low-form_415.jpeg" title="BEAKERS, PTFE, LOW FORM " />
+</a>
+</div>
+<div class="details">
+<h3 class="product-sku">CG-1109 </h3>
+<h2 class="product-title">
+<a href="/beakers-ptfe-low-form">BEAKERS, PTFE, LOW FORM</a>
+</h2>
+<div class="details-box">
+<div class="prices">
+<span class="price actual-price">From $19.40</span>
+</div>
+<div class="add-info">
+<div class="buttons">
+<input type="button" value="Details" class="button-1 product-box-detail-button" onclick="setLocation('/beakers-ptfe-low-form?sku=CG-1109')" />
+</div>
+</div>
+</div>
+<div class="description">
+</div>
+</div>
+</div>
+</div>
+<div class="item-box">
+<div class="product-item" data-productid="113952" id="product-CG-1109C">
+<div class="picture product-image-wrapper" id="productImageWrapID_113952">
+<a href="/covers-beakers-ptfe" title="COVERS, BEAKERS, PTFE">
+<img class="scale-with-grid" alt="COVERS, BEAKERS, PTFE" src="https://chemglass.com/content/images/thumbs/0011818_covers-beakers-ptfe_415.jpeg" title="COVERS, BEAKERS, PTFE" />
+</a>
+</div>
+<div class="details">
+<h3 class="product-sku">CG-1109C </h3>
+<h2 class="product-title">
+<a href="/covers-beakers-ptfe">COVERS, BEAKERS, PTFE</a>
+</h2>
+<div class="details-box">
+<div class="prices">
+<span class="price actual-price">From $5.35</span>
+</div>
+<div class="add-info">
+<div class="buttons">
+<input type="button" value="Details" class="button-1 product-box-detail-button" onclick="setLocation('/covers-beakers-ptfe?sku=CG-1109C')" />
+</div>
+</div>
+</div>
+<div class="description">
+</div>
+</div>
+</div>
+</div>
+<div class="item-box">
+<div class="product-item" data-productid="113978" id="product-CG-3744T">
+<div class="picture product-image-wrapper" id="productImageWrapID_113978">
+<a href="/stirring-rods-ptfe-steel-cores" title="STIRRING RODS, PTFE, STEEL CORES">
+<img class="scale-with-grid" alt="STIRRING RODS, PTFE, STEEL CORES" src="https://chemglass.com/content/images/thumbs/0011809_stirring-rods-ptfe-steel-cores_415.jpeg" title="STIRRING RODS, PTFE, STEEL CORES" />
+</a>
+</div>
+<div class="details">
+<h3 class="product-sku">CG-3744T </h3>
+<h2 class="product-title">
+<a href="/stirring-rods-ptfe-steel-cores">STIRRING RODS, PTFE, STEEL CORES</a>
+</h2>
+<div class="details-box">
+<div class="prices">
+<span class="price actual-price">From $10.55</span>
+</div>
+<div class="add-info">
+<div class="buttons">
+<input type="button" value="Details" class="button-1 product-box-detail-button" onclick="setLocation('/stirring-rods-ptfe-steel-cores?sku=CG-3744T')" />
+</div>
+</div>
+</div>
+<div class="description">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="tabs-4">
+<div class="product-specification">
+<table border="0" width="219" cellspacing="0" cellpadding="0"><colgroup><col width="117" /> <col width="102" /> </colgroup>
+<tbody>
+<tr>
+<td width="117" height="19"><span style="font-size: 9pt;">Part Number</span></td>
+<td class="xl67" style="text-align: center;" width="102"><span style="font-size: 9pt;">H x D (mm)</span></td>
+</tr>
+<tr>
+<td class="xl65" height="19"><span style="font-size: 9pt;">CG-1109H-01</span></td>
+<td class="xl66" style="text-align: center;"><span style="font-size: 9pt;">74 x 56</span></td>
+</tr>
+<tr>
+<td class="xl65" height="19"><span style="font-size: 9pt;">CG-1109H-02</span></td>
+<td class="xl66" style="text-align: center;"><span style="font-size: 9pt;">94 x 75</span></td>
+</tr>
+<tr>
+<td class="xl65" height="19"><span style="font-size: 9pt;">CG-1109H-03</span></td>
+<td class="xl66" style="text-align: center;"><span style="font-size: 9pt;">112 x 88</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</form>
+<p class="copyright-notice">Trademarks, service marks, registered trademarks, product and service names, and company names or logos that appear on the site are the property of their respective owners, who may or may not be affiliated with, connected to, or sponsored by Chemglass Life Sciences.</p>
+</div>
+</div>
+</div>
+</div>
+<div id="video-container">
+<iframe id="video-iframe" width="667" height="375"></iframe>
+</div>
+<script type="text/javascript">
+    function goToByScroll(id) {
+        // Scroll
+        $('html,body').animate({
+            scrollTop: $("#" + id).offset().top
+        },
+            'slow');
+    }
+    var active_wishlist = false;
+    var active_timeout = false;
+    jQuery(document).ready(function () {
+        var params = {}; window.location.search.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (str, key, value) {
+            var decode_value = decodeURIComponent(value);
+            if(typeof(decode_value) != 'undefined')
+                params[key] = decode_value.replace("%20", " ");
+        });
+        if ("sku" in params && params["sku"].length > 0 && jQuery("#product-" + params["sku"]).length > 0)
+        {
+            jQuery("#product-" + decodeURIComponent(params["sku"])).addClass("highlight");
+            goToByScroll("product-" + params["sku"]);
+        }
+        else if ("replacement" in params && params["replacement"].length > 0 && jQuery("#product-" + params["replacement"]).length > 0) {
+            jQuery("#product-" + params["replacement"]).addClass("highlight");
+            jQuery("#tabs").tabs();
+            jQuery("#tabs").tabs('option', 'active', 0);
+            goToByScroll("product-" + decodeURIComponent(params["replacement"]));
+        }
+        $(".add-to-wishlist-link").on("click", function () {
+            var wishlist = $($(this).attr("data-ng-show"));
+            if (active_timeout) {
+                window.clearTimeout(active_timeout);
+                active_timeout = false;
+            }
+            wishlist.addClass("add-to-wishlist-show");
+            if (active_wishlist) {
+                active_wishlist.removeClass("add-to-wishlist-show");
+                active_wishlist = false;
+            }
+            active_timeout = window.setTimeout(function () {
+                if(active_wishlist)
+                {
+                    active_wishlist.hide('slow');
+                    active_wishlist.removeClass("add-to-wishlist-show");
+                    active_wishlist = false;
+                }
+            }, 8000);
+            active_wishlist = wishlist;
+        });
+
+
+    });
+</script>
+</div>
+</div>
+</div>
+<p>
+</p>
+<div class="dark_color">
+<div id="back-top" style="display: block; bottom: 298px;">
+<a href="#top" style="opacity: 0.4;"></a>
+</div>
+<div class="container">
+<div class="footer">
+<div class="footer-menu-wrapper">
+
+<div class="five columns information" style="width:190px;">
+<h3>Information</h3>
+<ul>
+<li><a href="/pages/about_history">About Us</a></li>
+<li><a href="/news">press</a></li>
+<li><a href="/pages/trade_shows">trade shows</a></li>
+<li><a href="/sitemap">Sitemap</a></li>
+<li><a href="/search">Search</a></li>
+<li><a href="/pages/privacy_policy">privacy policy</a></li>
+</ul>
+</div>
+
+<div class="five columns information" style="width:240px;">
+<h3>products</h3>
+<ul>
+<li><a href="/pages/promo_offers">promo offers</a></li>
+<li><a href="/pages/new_products">new products</a></li>
+<li><a href="/pages/new_lit">New Literature</a></li>
+<li><a href="/search">Categories</a></li>
+
+<li><a href="/recentlyviewedproducts">Recently viewed products</a></li>
+</ul>
+</div>
+
+<div class="five columns customer-service" style="width:250px;">
+<h3>Customer service</h3>
+<ul>
+
+<li><a href="/pages/order_info">ordering info / returns</a></li>
+<li><a href="/creditapplication">apply for business account</a></li>
+
+<li><a href="/contactus">Contact us</a></li>
+
+<li><a href="/pages/sales_reps">north america sales team</a></li>
+
+<li><a href="/pages/supp_interns">international sales team</a></li>
+<li><a href="/pages/directions">Directions</a></li>
+</ul>
+</div>
+
+<div class="five columns my-account" style="width:200px;">
+<h3>My account</h3>
+<ul>
+
+<li><a href="/login">log in</a></li>
+
+<li><a href="/customer/info" class="account">account information</a></li>
+
+<li><a href="/cart" class="ico-cart">Shopping cart</a></li>
+
+<li><a href="/order/history">order history</a></li>
+
+<li><a href="/wishlist" class="ico-wishlist">my favorites</a></li>
+
+</ul>
+
+</div>
+
+<div class="five columns follow-us" style="width:220px;">
+
+<div class="five columns follow-us" style="margin-bottom:-20px;">
+<ul>
+<li class="twitter"><a href="https://twitter.com/chemglass" target="_blank">LinkedIn</a></li>
+<li class="facebook"><a href="https://www.facebook.com/chemglasslifesciences" target="_blank">Facebook</a></li>
+<li class="linkdin"><a href="https://www.linkedin.com/company/chemglass-life-sciences" target="_blank">LinkedIn</a></li>
+</ul></div>
+
+<div class="newsletter_footer">
+<div class="newsletter_footer"><div style="color:white; padding-bottom:5px;">SIGN UP TO:</div>
+<form action="/pages/signupform" method="get">
+<button title="Newsletter Signup" type="submit" id="signup-button" class="btn" style="padding:12px; font-size:12px; background-color: #006da3; color: white;     border-width: 1px; border-style: solid; border-color:white; cursor:pointer;">Receive Special/Promo Offers</button>
+</form>
+</div>
+</div>
+<div class="footer-disclaimer">
+Copyright &copy; 2018 Chemglass.
+<br /> All Rights Reserved.
+</div>
+<div class="footer-poweredby">
+Powered by <a href="http://www.nopcommerce.com/">nopCommerce</a>
+</div>
+<div class="payment_services">
+<span class="icon_footer_visa"></span>
+<span class="icon_footer_mastercard"></span>
+<span class="icon_footer_blue"></span>
+</div>
+<div style="height:25px; clear:both;"></div>
+
+<div style="float:right;"> <script type='text/javascript' src='https://www.rapidscansecure.com/siteseal/siteseal.js?code=76,A55E9B0ACB590AA1279E7F3C8D0FA9C963890A1A'></script></div>
+<div style="height:5px; clear:both;"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+
+    jQuery(function (jQuery) {
+        var slide = true;
+        jQuery('#footer_higher_content').show();
+    });
+
+
+
+    
+(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+
+</script>
+</div>
+
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-49725360-1']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+<script src="/Themes/ChemGlass/Content/script/custom.js" type="text/javascript"></script>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+</body>
+</html>
